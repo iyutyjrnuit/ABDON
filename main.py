@@ -142,7 +142,7 @@ async def worker(task_id):
             await browser.close()
 
 async def main():
-    num_tasks = 50  # تشغيل 50 متصفحاً في نفس الوقت
+    num_tasks = 20  # تشغيل 50 متصفحاً في نفس الوقت
     cycle = 1
     
     while True:
